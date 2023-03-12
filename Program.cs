@@ -16,7 +16,7 @@ Console.Clear();
 Console.WriteLine("Exercicio3");
 ManipularArquivo manipulador = new ManipularArquivo();
 manipulador.Conteudo = "náthan luciano de oliveira e silva";
-manipulador.EnderecoNomeArquivo = @"C:\Users\043412\Desktop\novapasta\teste.txt"; // lembre-se de mudar sempre o diretório
+manipulador.EnderecoNomeArquivo = @"C:\Users\043412\Desktop\teste\teste.txt"; // lembre-se de mudar sempre o diretório
 if (manipulador.SalvarDadosEArquivo())
     Console.WriteLine(" o arquivo foi salvo com sucesso!");
 else
